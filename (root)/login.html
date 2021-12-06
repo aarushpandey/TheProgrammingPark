@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <title>The Programming Park</title>
+</head>
+<body>
+        <nav class="navbar">
+                <div>
+                        <ul type="none">
+                                <li class="nav-title"><a href="index.html" class="title-link">The Programming Park</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                                <button class="auth-item" onclick="window.location.href='login.html'">Login</button>
+                        </ul>                        
+
+                </div>
+        </nav>
+        <div>
+
+                <h3 style="margin-left: 46%; font-size: 2em; margin-top: 50px; font-family: 'Century Gothic', 'Franklin Gothic Medium', Arial; color: orangered;">Login</h3>
+                <h4 style="margin-left: 34%; margin-top: 50px; font-family: 'Century Gothic', 'Franklin Gothic Medium', Arial; color: orange;">Login to 'The Programming Park' to save your progress.</h4>
+                <input type="text" placeholder="Username" class="username" id="username">
+                <input type="password" placeholder="Password" class="password" id="password">
+
+
+                <script src="scripts.js" defer></script>
+                <button type="submit" class="submit" onclick="login()">Login</button>
+                <a href="signup.html" style="display: block; text-decoration: none; margin-left: 42%; margin-top: 10px;">Don't have an account? Register</a>
+        
+        </div>  
+
+
+
+        <script src="scripts.js" defer></script>
+</body>
+</html>
